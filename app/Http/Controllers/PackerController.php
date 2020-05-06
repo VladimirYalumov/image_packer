@@ -8,7 +8,7 @@ use Imagick;
 class PackerController extends Controller
 {
     protected const LOCAL_PATH = 'uploads/';
-    protected const PATH = 'W:/domains/image-packer/public/'.self::LOCAL_PATH;
+    protected const PATH = 'W:\domains\image-packer\public/'.self::LOCAL_PATH;
     protected const INPUT_NAME = 'uploadfile';
     protected $fileNames = [];
 
@@ -21,10 +21,15 @@ class PackerController extends Controller
     protected $property = [];
     protected $dpi;
     protected $error;
+    protected $path;
 
 
     public function __construct(){
         $this->imageBackGround = new Imagick();
+
+        $this->middleware('auth');
+
+        $this->path = base_path().'/public_html/'.self::LOCAL_PATH;
     }
 
     /**
@@ -62,7 +67,7 @@ class PackerController extends Controller
             foreach($files as $k => $file)
             if ($file->isValid()) {
                 $this->fileNames[$k] = uniqid() . '.' . $this->format;
-                $file->move(self::PATH, $this->fileNames[$k]);
+                $file->move($this->path, $this->fileNames[$k]);
             }
             return true;
         }
@@ -81,7 +86,7 @@ class PackerController extends Controller
         $pictureArray = [];
 
         for($i = 0; $i < count($this->fileNames); $i++){
-            $pictureArray[$i]['image'] = new Imagick(self::PATH.$this->fileNames[$i]);
+            $pictureArray[$i]['image'] = new Imagick($this->path.$this->fileNames[$i]);
             $pictureArray[$i]['width'] = $pictureArray[$i]['image']->getImageWidth();
             if($pictureArray[$i]['width'] > $this->width){
                 $this->error = "Width one of images is bigger then width of main image";
@@ -258,12 +263,12 @@ class PackerController extends Controller
         $this->property['full_area'] = round($this->property['height']*$this->property['width']*0.01, 2);
         $this->imageBackGround->setImageUnits(imagick::RESOLUTION_PIXELSPERINCH);
         $mainImagePath = uniqid() . '.' . $this->format;
-        $this->imageBackGround->writeImage(self::PATH.'/'.$mainImagePath);
+        $this->imageBackGround->writeImage($this->path.'/'.$mainImagePath);
         $this->property['path'] = self::LOCAL_PATH.$mainImagePath;
         $this->property['files_num'] = count($this->fileNames);
 
         for($i = 0; $i < count($this->fileNames); $i++){
-            unlink(self::PATH.$this->fileNames[$i]);
+            unlink($this->path.$this->fileNames[$i]);
         }
 
         $property = $this->property;

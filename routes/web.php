@@ -19,7 +19,8 @@ Route::get('/picture_form', function () {
     return view('welcome_picture');
 })->name('picture_form');
 
-Auth::routes();
+Route::post('login', 'Auth\LoginController@login')->name('login');
+Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
