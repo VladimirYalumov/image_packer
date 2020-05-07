@@ -29,7 +29,7 @@ class PackerController extends Controller
 
         $this->middleware('auth');
 
-        $this->path = base_path().'/public_html/'.self::LOCAL_PATH;
+        $this->path = base_path().'/public/'.self::LOCAL_PATH;
     }
 
     /**

@@ -7,64 +7,13 @@
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/image-packer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/image-packer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/CreateUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/CreateUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PackerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PackerController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c22bd44727.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c22e3c078e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c23eed8954.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c24c8e8075.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c2666d03bf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c26f65c5db.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c273d558a7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c27bcba770.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c289be20c3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c28c68a4e0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4c42a750c38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4cd15a979cd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e4d126e05911.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53cea5328b9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53d23a8ffec.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53d4dd522e3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53d5125ff77.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53d54711d60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53d722bb47a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53d747bd837.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53d7dde78ab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53de2b11fda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53de503b5c5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e53de951ea4d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e5542271cf13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e5542271d360.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e5542271d733.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e5542271da53.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e5542271dd80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e5542271e06a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e55423a8f837.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e55423a8fd3c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e55423a90107.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e55423a904bd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e55423a9087f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e55423a90c6b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e55423a91261.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e55424fbfdff.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e5542999439d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e5542b955d88.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e5542d10d7e1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e55436bdda6b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/5e55440cbba81.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/uploads/5eb2ac231dec5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +193,12 @@
       <workItem from="1582549227115" duration="10440000" />
       <workItem from="1582795586192" duration="876000" />
       <workItem from="1588686163036" duration="12147000" />
-      <workItem from="1588704191822" duration="12282000" />
+      <workItem from="1588704191822" duration="14196000" />
+      <workItem from="1588844344517" duration="4668000" />
+      <workItem from="1588855298334" duration="3209000" />
+      <workItem from="1588858511643" duration="23000" />
+      <workItem from="1588858546062" duration="179000" />
+      <workItem from="1588858879246" duration="108000" />
     </task>
     <servers />
   </component>
@@ -269,6 +223,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1588694107856" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1588858722954">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588858722954" />
     <state width="1088" height="127" key="GridCell.Tab.0.bottom" timestamp="1588704125846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -329,21 +287,5 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1588690255547" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/Controllers/PackerController.php</url>
-          <line>218</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/Controllers/PackerController.php</url>
-          <line>119</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
